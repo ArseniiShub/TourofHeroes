@@ -2,6 +2,7 @@
 h1 {
   margin-bottom: 0;
 }
+
 nav a {
   padding: 1rem;
   text-decoration: none;
@@ -12,10 +13,15 @@ nav a {
   border-radius: 4px;
 }
 
+nav a:not(:first-child) {
+  margin-left: 10px;
+}
+
 nav a:hover {
   color: white;
   background-color: #42545C;
 }
+
 nav a:active {
   background-color: black;
 }
